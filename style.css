@@ -9,14 +9,19 @@ h1{
 p{
     color:#976969;
 }
+a{
+    text-decoration: none;
+    color:#FFF7FF;
+}
 section{
-    height:500px;
-    margin-top:150px;
+    height:500px; 
+    margin-bottom:150px;
 }
 .half_width{
     width:50%;
     float:left;
     box-sizing: border-box;
+    padding-left: 48px;
 }
 .half_width span{
     color:#FFA500
@@ -25,4 +30,10 @@ section{
     max-width: 80%;
     float:right;
     
+}
+.half_width a{
+    padding: 10px 20px;
+    background: :#FF6C4E;
+    background-image: #FF6C4E;
+    background-image: linear-gradient(45deg, #26BCE2, #FF694C);
 }
