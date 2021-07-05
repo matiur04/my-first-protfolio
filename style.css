@@ -37,3 +37,7 @@ section{
     background-image: #FF6C4E;
     background-image: linear-gradient(45deg, #26BCE2, #FF694C);
 }
+.first_section{
+    background-image:url(image/top-banner.png);
+    background-repeat:no-repeat;
+}
